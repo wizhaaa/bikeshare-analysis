@@ -184,6 +184,8 @@ def rawData(df):
     """
     Display raw data from CSV file. 
     """
+    print('\nCalculating User Stats...\n')
+    start_time = time.time()
     startLoc = 0
     endLoc = 5
 
@@ -198,7 +200,8 @@ def rawData(df):
             stopDisplay = input("Do you wish to contiue? ( y or n ) \n").lower()
             if stopDisplay == 'n':
                 break
-
+    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('-'*40)
 
 
 
