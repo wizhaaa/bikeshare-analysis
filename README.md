@@ -1,15 +1,22 @@
 ### Date created
-Include the date you created this project and README file.
+20200622 Monday June 22 2020 
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Massages US bikeshare data in a python file from NYC, Chicago, and Washington. 
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+nyc.csv
+wash.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+pandas documentation
+udacity courses
+stackoverflow
+various forums
+
 
