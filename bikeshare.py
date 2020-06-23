@@ -73,7 +73,10 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times of travel.
+        Input: df. DataFrame that we have filtered 
+        Output: Calculates time taken for entire calculation and most common month, day, hour. 
+        """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
