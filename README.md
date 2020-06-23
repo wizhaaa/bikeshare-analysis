@@ -7,7 +7,7 @@ Bikeshare
 
 ### Description
 Massages US bikeshare data in a python file from NYC, Chicago, and Washington. 
-Receives User input. 
+Receives User input. </b> Filters based on city, month, day. Gives data such as mode of columns, user counts and types, and more. 
 
 ### Files used
 bikeshare.py
